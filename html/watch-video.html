@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ویدئوها</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+<!---header section--->
+<header class="header">
+    
+    <section class="flex">
+        
+        <a href="home.html" class="logo">آموزش</a>
+        
+        <form action="" method="post" class="search-form">
+            <input type="text" name="search-box" placeholder="جستجو دوره ها" 
+            required maxlength="100">
+            <button type="submit" class="fas fa-search" name="search"></button>
+        </form>
+          <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="toggle-btn" class="fas fa-sun"></div>
+          </div>
+
+          <div class="profile">
+            <img src="../images/pic-1.jpg" class="image" alt="">
+            <h3 class="name">پویان</h3>
+            <p class="role">دانشجو</p>
+            <a href="profile.html" class="btn">مشاهده پروفایل</a>
+            <div class="flex-btn">
+               <a href="login.html" class="option-btn">ورود</a>
+               <a href="register.html" class="option-btn">ثبت نام</a>
+            </div>
+         </div>
+    </section>
+</header>
+ 
+<!---sidebar section--->
+<div class="side-bar">
+
+  <div class="close-side-bar">
+    <i class="fas fa-times"></i>
+  </div>
+
+  <div class="profile">
+    <img src="../images/pic-1.jpg" class="image" alt="">
+    <h3 class="name">پویان</h3>
+    <p class="role">دانشجو</p>
+    <a href="profile.html" class="btn">نمایش پروفایل</a>
+   
+ </div>
+<nav class="navbar">
+  <a href="home.html"><i class="fas fa-home"></i><span>صفحه اصلی</span></a>
+  <a href="about.html"><i class="fas fa-question"></i><span>درباره ما</span></a>
+  <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>دوره ها</span></a>
+  <a href="teacher.html"><i class="fas fa-chalkboard-user"></i><span>مدرسین</span></a>
+  <a href="contact.html"><i class="fas fa-headset"></i><span>تماس با ما</span></a>
+</nav>
+</div>
+
+<!-----watch video  section------>
+
+<section class="watch-video">
+
+<div class="video-details">
+     <video src="../images/vid-1.mp4" class="video" 
+     poster="../images/post-1-1.png" controls autoplay></video>
+     <h3 class="title">آموزش کامل HTML (قسمت اول)</h3>
+      <div class="info">
+      <p><i class="fas fa-calendar"></i><span>۲۱-۲۵-۲۰۲۲</span></p>
+      <p><i class="fas fa-heart"></i><span>۴۵ پسندها</span></p>
+      </div>
+
+      <div class="tutor">
+        <img src="../images/pic-2.jpg" alt="">
+        <div>
+          <h3>آقای سینا</h3>
+          <span>توسعه دهنده</span>
+        </div>
+      </div>
+
+      <form action="" method="post" class="flex">
+        <a href="playlist.html" class="inline-btn">مشاهده لیست پخش</a>
+        <button type="submit"> <i class="far fa-heart"></i><span>پسند</span></button>
+      </form>
+
+      <div class="descriptions">
+           <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم استو مجله در ستون و سطرآنچنان که لازم است
+           </p>
+      </div>
+</div>
+</section>
+
+
+<!-----comments   section------>
+
+<section class="comments">
+  <h1 class="heading">۵ نظرات</h1>
+  <form action="" method="post" class="add-comment">
+    <h3>نظرشما:</h3>
+    <textarea name="comments-box" required placeholder="نظر خود را بنویسید.."
+    maxlength="1000" cols="30" rows="10"></textarea>
+    <input type="submit" value="اضافه کردن" name="add-comment"
+    class="inline-btn">
+  </form>
+
+  <h1 class="heading">نظرات کاربران</h1>
+
+  <div class="show-comments">
+
+    <div class="box">
+      <div class="user">
+        <img src="../images/pic-3.jpg" alt="">
+        <div>
+          <h3>پویان</h3>
+          <span>۲۱-۲۵-۲۰۲۲</span>
+        </div>
+      </div>
+      <p class="text">نظر من ...</p>
+
+      <form action="" method="post" class="flex-btn">
+        <button type="submit" name="edit-comment" class="inline-option-btn">ویرایش</button>
+        <button type="submit" name="delete-comment" class="inline-delete-btn">پاک کردن</button>
+
+      </form>
+      
+    </div>
+
+    <div class="box">
+      <div class="user">
+        <img src="../images/pic-4.jpg" alt="">
+        <div>
+          <h3>پویان</h3>
+          <span>۲۱-۲۵-۲۰۲۲</span>
+        </div>
+      </div>
+      <p class="text">آموزش عالی! 
+        ادامه بده!</p>
+
+      
+      
+    </div>
+
+    <div class="box">
+      <div class="user">
+        <img src="../images/pic-4.jpg" alt="">
+        <div>
+          <h3>پویان</h3>
+          <span>۲۱-۲۵-۲۰۲۲</span>
+        </div>
+      </div>
+      <p class="text">آموزش عالی! 
+        ادامه بده!</p>
+
+      
+      
+    </div>
+
+    <div class="box">
+      <div class="user">
+        <img src="../images/pic-4.jpg" alt="">
+        <div>
+          <h3>پویان</h3>
+          <span>۲۱-۲۵-۲۰۲۲</span>
+        </div>
+      </div>
+      <p class="text">آموزش عالی! 
+        ادامه بده!</p>
+
+      
+      
+    </div>
+
+    <div class="box">
+      <div class="user">
+        <img src="../images/pic-4.jpg" alt="">
+        <div>
+          <h3>پویان</h3>
+          <span>۲۱-۲۵-۲۰۲۲</span>
+        </div>
+      </div>
+      <p class="text">آموزش عالی! 
+        ادامه بده!</p>
+
+      
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!---footer section--->
+<footer class="footer">
+  تمامی حقوق کپی رایت مطالب، تصاویر و … برای  <span> مجموعه ما </span>محفوظ می‌باشد. 
+    
+  </footer>
+
+    <!----custom js file link----->
+     <script src="../java.js"></script>
+</body>
+</html>

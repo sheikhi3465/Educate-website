@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس </title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+<!---header section--->
+<header class="header">
+    
+  <section class="flex">
+      
+      <a href="home.html" class="logo">آموزش</a>
+      
+      <form action="" method="post" class="search-form">
+          <input type="text" name="search-box" placeholder="جستجو دوره ها" 
+          required maxlength="100">
+          <button type="submit" class="fas fa-search" name="search"></button>
+      </form>
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+
+        <div class="profile">
+          <img src="../images/pic-1.jpg" class="image" alt="">
+          <h3 class="name">پویان</h3>
+          <p class="role">دانشجو</p>
+          <a href="profile.html" class="btn">مشاهده پروفایل</a>
+          <div class="flex-btn">
+             <a href="login.html" class="option-btn">ورود</a>
+             <a href="register.html" class="option-btn">ثبت نام</a>
+          </div>
+       </div>
+  </section>
+</header>
+ 
+<!---sidebar section--->
+<div class="side-bar">
+
+  <div class="close-side-bar">
+    <i class="fas fa-times"></i>
+  </div>
+
+  <div class="profile">
+    <img src="../images/pic-1.jpg" class="image" alt="">
+    <h3 class="name">پویان</h3>
+    <p class="role">دانشجو</p>
+    <a href="profile.html" class="btn">نمایش پروفایل</a>
+   
+ </div>
+<nav class="navbar">
+  <a href="home.html"><i class="fas fa-home"></i><span>صفحه اصلی</span></a>
+  <a href="about.html"><i class="fas fa-question"></i><span>درباره ما</span></a>
+  <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>دوره ها</span></a>
+  <a href="teacher.html"><i class="fas fa-chalkboard-user"></i><span>مدرسین</span></a>
+  <a href="contact.html"><i class="fas fa-headset"></i><span>تماس با ما</span></a>
+</nav>
+</div>
+
+<!------contact section------>
+
+
+<section class="contact">
+
+  <div class="row">
+
+    <div class="image">
+      <img src="../images/contact-img.svg" alt="">
+    </div>
+
+    <form action="" method="post">
+       <h3>تماس با ما</h3>
+       <input type="text"  placeholder="نام خود را وارد کنید" class="box" 
+       required maxlength="100" name="name">
+       <input type="email"  placeholder="ایمیل خود را وارد کنید" class="box" 
+       required maxlength="100" name="email">
+       <input type="number"  placeholder="شماره همراه خود را وارد کنید" class="box" 
+       required maxlength="100" name="number">
+       <textarea name="msg" class="box" placeholder="پیام خود را وارد کنید" 
+       cols="30" rows="10" required></textarea>
+       <input type="submit"   class="inline-btn" 
+       required maxlength="100" name="submit" value="ثبت">
+
+    </form>
+  </div>
+
+  <div class="box-container">
+
+    <div class="box">
+      <i class="fas fa-phone"></i>
+      <h3>شماه تماس</h3>
+      <a href="tel:1234567890">۱۲۳-۴۵۶-۷۸۹۰</a>
+      <a href="1112223333">۱۱۱-۲۲۲-۳۳۳۳</a>
+
+    </div>
+
+    <div class="box">
+      <i class="fas fa-envelope"></i>
+      <h3>آدرس ایمیل</h3>
+      <a href="mailto:username@yahoo.com">username@yahoo.com</a>
+      <a href="mailto:username@google.com">username@google.com</a>
+
+    </div>
+
+    <div class="box">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>آدرس دفتر</h3>
+      <a href="#">user/address</a>
+     
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!---footer section--->
+<footer class="footer">
+  تمامی حقوق کپی رایت مطالب، تصاویر و … برای  <span> مجموعه ما </span>محفوظ می‌باشد. 
+    
+  </footer>
+    <!----custom js file link----->
+     <script src="../java.js"></script>
+</body>
+</html>
